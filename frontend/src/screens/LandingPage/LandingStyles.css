@@ -1,0 +1,148 @@
+.landing-page-img{
+  width: 100%;
+  height: auto;  
+}
+.landing-page-img-container{
+  text-align: center;
+}
+.text-over-img{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+.landing-nav{
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.lander{
+  font-size: 8rem;
+  color: white;
+
+}
+.lander-0 .lander-2{
+  font-size: 4rem;
+  
+}
+.lander-0{
+  color: white;
+}
+.lander-2{
+  color: white;
+}
+.landing-cover{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.text_over{
+  position: absolute;
+  text-align: center;
+}
+video{
+  width: 90%;
+  height: auto;
+  border-radius: 30px 30px 30px 30px;
+  z-index: 0;
+}
+
+
+.primary-btn{
+  padding: 1rem;
+  width: 15%;
+  border-radius: 15px 15px 15px 15px;
+  font-size: 1rem;
+  border: 1px solid black;
+  background-color: black;
+  color: white!important;
+  cursor: pointer!important;
+  transition: all ease-in-out 0.3s;
+}
+.myImageLanding{
+  display: none;
+  border-radius: 30px 30px 30px 30px;
+}
+.primary-btn:hover{  
+  border: 1px solid white;
+  background-color: black;
+  color: white!important;
+}
+.secondary-btn{
+  padding: 1rem;
+  width: 15%;
+  border-radius: 15px 15px 15px 15px;
+  font-size: 1rem;
+  background-color: white;
+  color: black!important;
+  cursor: pointer;
+}
+.landing-btn-cover{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+  margin-top: 0rem;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:1000px){
+  .primary-btn{
+    width: 20%;
+  }
+  video{
+    display: none;
+  }
+  .myImageLanding{
+    display: block;
+    z-index: 0;
+  }
+  .landing-nav{
+    flex-direction: column;
+    text-align: left;
+  }
+}
+@media screen and (max-width:800px){
+  .primary-btn{
+    width: 25%;
+  }
+  .lander{
+    font-size: 6rem;
+  }
+  .myImageLanding{
+    display: block;
+  }
+}
+@media screen and (max-width:650px){
+  .lander{
+    font-size: 4rem;
+  }
+  .myImageLanding{
+    height: 100vh;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width:500px){
+  .primary-btn{
+    width: 30vw;
+  }
+
+  .myImageLanding{
+    display: block;
+  }
+}
+@media screen and (max-width:430px){
+
+  .lander{
+    font-size: 2rem;
+  }
+}
